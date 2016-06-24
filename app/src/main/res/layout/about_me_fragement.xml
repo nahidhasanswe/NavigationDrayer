@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/about_me_txt"
+                android:text="About Me"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:id="@+id/my_image"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/about_me_txt"
+                android:src="@drawable/my_photo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_image"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_text"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_hobby"
+                    android:paddingTop="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_aim"
+                    android:paddingTop="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="17dp"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

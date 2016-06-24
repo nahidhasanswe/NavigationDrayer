@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nahid.example.com.navigationdrayer.SpalshScreen">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/letter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        android:visibility="invisible"
+        android:id="@+id/imageL" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/oo"
+        android:layout_marginLeft="10dp"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/imageL"
+        android:layout_toEndOf="@+id/imageL"
+        android:id="@+id/imageO" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/vv"
+        android:id="@+id/imageV"
+        android:visibility="invisible"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/imageO"
+        android:layout_toEndOf="@+id/imageO" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ee"
+        android:visibility="invisible"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/imageE"
+        android:layout_alignTop="@+id/imageV"
+        android:layout_toEndOf="@+id/imageV" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconcal"
+        android:layout_centerVertical="true"
+        android:id="@+id/calcIcon"
+        android:visibility="invisible"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

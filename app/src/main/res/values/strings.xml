@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Love Calculator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="my_text">I am Nahid Hasan. I am a student of Software Engineering department in Daffodil International University.
+        I admitted here in 2014. Now I am in 3rd year according to date May 23,2016.I am a simple man. I like to lead a measurable life.
+        I am come from a mid level family of a village. My father is a school teacher. So I have to struggle with my life to live.
+    </string>
+
+    <string name="my_hobby">
+        In y childhood my hobby is collecting forieg money. But now, I have a new hobby that collecting modern and new computer gadgets.
+    </string>
+
+    <string name="my_aim">
+        My aim in life is to be a pharmacist. But this is change for my luck. But now I am very happy and comfort feel for that.
+    </string>
+</resources>
